@@ -392,6 +392,7 @@
         }
       }
       function deleteApp(cb){
+        // TODO: Fix this delete process
         del(to, {force: true}, cb);
       }
       function appCopied(err){
